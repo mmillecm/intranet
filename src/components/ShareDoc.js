@@ -14,18 +14,18 @@ function ShareDoc(){
     
     
     return(
-        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+        <Tab.Container id="left-tabs-example" defaultActiveKey="first" >
         <Row>
           <Col sm={3}>
-            <Nav variant="pills" className="flex-column m-5">
+            <Nav  variant="pills" className="flex-column m-5">
                 <AreasDoc name={rh}/>
                 <AreasDoc name={cont}/>
                 <AreasDoc name={ehs}/>
             </Nav>
           </Col>
           <Col sm={9}>
-            <Tab.Content>
-              <Tab.Pane eventKey={rh} className="mt-5">
+            <Tab.Content >
+              <Tab.Pane eventKey={rh} className="mt-5" >
                 <Docs/>
               </Tab.Pane>
               <Tab.Pane eventKey={cont} className="mt-5">

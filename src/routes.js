@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage'
 import SharedocPage from './pages/SharedocPage'
 import WhoWAPage from './pages/WhoWAPage'
 import NotFound from './pages/Notfound'
+import ValuesPages from "./pages/ValuesPage";
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -28,6 +29,7 @@ const Routes = () => (
       <PrivateRoute path="/app" component={() => <HomePage/>} />
       <PrivateRoute path="/sharedoc" component={() => <SharedocPage/>} />
       <PrivateRoute path="/whoweare" component={() => <WhoWAPage/>} />
+      <PrivateRoute path="/values" component={() => <ValuesPages/>} />
       <Route path="*" component={() => <NotFound/>} />
     </Switch>
   </BrowserRouter>

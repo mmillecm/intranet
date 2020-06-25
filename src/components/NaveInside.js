@@ -25,9 +25,9 @@ function NaveInside(){
         </NavDropdown>
         <NavDropdown title="Cultura" className=" menu" >
           <Link className="dropdown-item" to="/whoweare">Quem Somos</Link>
-          <Link className="dropdown-item">Missão</Link>
+          <Link className="dropdown-item" to="/mission">Missão</Link>
           <Link className="dropdown-item">Visão</Link>
-          <Link className="dropdown-item">Valores</Link>
+          <Link className="dropdown-item" to="/values">Valores</Link>
         </NavDropdown>
         <Link className="nav-link menu" to="/login">Noticias </Link>
         <NavDropdown title="RH" className=" menu" >
