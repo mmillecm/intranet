@@ -29,9 +29,10 @@ function ShareDoc(){
                 <Docs/>
               </Tab.Pane>
               <Tab.Pane eventKey={cont} className="mt-5">
+                <Docs/>
               </Tab.Pane>
               <Tab.Pane eventKey={ehs} className="mt-5">
-              Teste
+                <Docs/>
               </Tab.Pane>
             </Tab.Content>
           </Col>

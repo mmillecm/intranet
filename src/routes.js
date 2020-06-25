@@ -5,6 +5,8 @@ import { isAuthenticated } from "./services/auth";
 import LoginPage from "./pages/LoginPage"
 import HomePage from './pages/HomePage'
 import SharedocPage from './pages/SharedocPage'
+import WhoWAPage from './pages/WhoWAPage'
+import NotFound from './pages/Notfound'
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -25,7 +27,8 @@ const Routes = () => (
       <Route exact path="/" component={() => <LoginPage/> } />
       <PrivateRoute path="/app" component={() => <HomePage/>} />
       <PrivateRoute path="/sharedoc" component={() => <SharedocPage/>} />
-      <Route path="*" component={() => <h1>Page not found</h1>} />
+      <PrivateRoute path="/whoweare" component={() => <WhoWAPage/>} />
+      <Route path="*" component={() => <NotFound/>} />
     </Switch>
   </BrowserRouter>
 );
