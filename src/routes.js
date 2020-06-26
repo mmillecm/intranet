@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import { isAuthenticated } from "./services/auth";
-import LoginPage from "./pages/LoginPage"
-import HomePage from './pages/HomePage'
-import SharedocPage from './pages/SharedocPage'
-import WhoWAPage from './pages/WhoWAPage'
-import NotFound from './pages/Notfound'
-import ValuesPages from "./pages/ValuesPage";
+import LoginPage from "./pages/LoginPage";
+import HomePage from './pages/HomePage';
+import SharedocPage from './pages/SharedocPage';
+import WhoWAPage from './pages/WhoWAPage';
+import NotFound from './pages/Notfound';
+import ValuesPage from "./pages/ValuesPage";
+import MissionPage from './pages/MissionPage';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -29,7 +30,8 @@ const Routes = () => (
       <PrivateRoute path="/app" component={() => <HomePage/>} />
       <PrivateRoute path="/sharedoc" component={() => <SharedocPage/>} />
       <PrivateRoute path="/whoweare" component={() => <WhoWAPage/>} />
-      <PrivateRoute path="/values" component={() => <ValuesPages/>} />
+      <PrivateRoute path="/values" component={() => <ValuesPage/>} />
+      <PrivateRoute path="/mission" component={() => <MissionPage/>} />
       <Route path="*" component={() => <NotFound/>} />
     </Switch>
   </BrowserRouter>
