@@ -10,7 +10,7 @@ function Hero(props){
         <Carousel >
         <Carousel.Item>
           <img
-            className="d-block w-100 h-50"
+            className="d-block w-100 "
             src={capa}
             alt="First slide"
           />
@@ -18,7 +18,7 @@ function Hero(props){
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-50"
+            className="d-block w-100 "
             src={capa2}
             alt="Third slide"
           />
@@ -27,7 +27,7 @@ function Hero(props){
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-50"
+            className="d-block w-100 "
             src={capa3}
             alt="Third slide"
           />

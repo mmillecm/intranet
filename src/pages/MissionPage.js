@@ -26,6 +26,16 @@ function MissionPage(){
                 </Card.Body>
 
             </Card>
+            <Card className="mt-5">
+                <Card.Header as="h5" className=" bg-transparent text-center">Visão</Card.Header>
+                <Card.Body>
+                    <Card.Text className="text-center">
+                        Ser uma referência de qualidade, inovação e competência em consultoria empresarial 
+
+                    </Card.Text>
+                </Card.Body>
+
+            </Card>
         </Col>
         </Row>
         </div>

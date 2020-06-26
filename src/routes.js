@@ -9,6 +9,7 @@ import WhoWAPage from './pages/WhoWAPage';
 import NotFound from './pages/Notfound';
 import ValuesPage from "./pages/ValuesPage";
 import MissionPage from './pages/MissionPage';
+import CustomerExperiencePage from "./pages/CustomerExperiencePage.js";
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -32,6 +33,8 @@ const Routes = () => (
       <PrivateRoute path="/whoweare" component={() => <WhoWAPage/>} />
       <PrivateRoute path="/values" component={() => <ValuesPage/>} />
       <PrivateRoute path="/mission" component={() => <MissionPage/>} />
+      <PrivateRoute path="/customerEx" component={() => <CustomerExperiencePage/>} />
+      
       <Route path="*" component={() => <NotFound/>} />
     </Switch>
   </BrowserRouter>

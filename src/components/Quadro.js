@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card'
 
 function Quadro(props){
     return(
-            <Card className="mt-5 quadro">
+            <Card className="mt-3 quadro">
                 <Card.Header>{props.Header}</Card.Header>
                 <Card.Img src={props.Img}></Card.Img>
                 <Card.Title>{props.Title}</Card.Title>

@@ -21,21 +21,18 @@ function NaveInside(){
         <NavDropdown title="Institucional" className=" menu" >
           <Link className="dropdown-item">Normas</Link>
           <Link className="dropdown-item">Código de Ética </Link>
-          <Link className="dropdown-item">Experiência do Cliente</Link>
+          <Link className="dropdown-item" to="/customerEx">Experiência do Cliente</Link>
           <Link className="dropdown-item" to="/sharedoc"> Documentos Compartilhados</Link>
         </NavDropdown>
         <NavDropdown title="Cultura" className=" menu" >
           <Link className="dropdown-item" to="/whoweare">Quem Somos</Link>
-          <Link className="dropdown-item" to="/mission">Missão</Link>
-          <Link className="dropdown-item">Visão</Link>
+          <Link className="dropdown-item" to="/mission">Missão e Visão</Link>
           <Link className="dropdown-item" to="/values">Valores</Link>
         </NavDropdown>
-        <Link className="nav-link menu" to="/login">Noticias </Link>
         <NavDropdown title="RH" className=" menu" >
           <Link className="dropdown-item">Indica</Link>
           <Link className="dropdown-item">Portal do Colaborador</Link>
           <Link className="dropdown-item">Benefícios</Link>
-          <Link className="dropdown-item">Valores</Link>
         </NavDropdown>
     
         <Link className="nav-link menu" to="/login">IT</Link>
