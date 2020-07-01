@@ -33,7 +33,7 @@ const Routes = () => (
       <PrivateRoute path="/whoweare" component={() => <WhoWAPage/>} />
       <PrivateRoute path="/values" component={() => <ValuesPage/>} />
       <PrivateRoute path="/mission" component={() => <MissionPage/>} />
-      <PrivateRoute path="/customerEx" component={() => <CustomerExperiencePage/>} />
+      <PrivateRoute path="/customerExp" component={() => <CustomerExperiencePage/>} />
       
       <Route path="*" component={() => <NotFound/>} />
     </Switch>
