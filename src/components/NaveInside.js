@@ -21,7 +21,7 @@ function NaveInside(){
         <NavDropdown title="Institucional" className=" menu" >
           <Link className="dropdown-item">Normas</Link>
           <Link className="dropdown-item">Código de Ética </Link>
-          <Link className="dropdown-item" to="/customerEx">Experiência do Cliente</Link>
+          <Link className="dropdown-item" to="/customerExp">Experiência do Cliente</Link>
           <Link className="dropdown-item" to="/sharedoc"> Documentos Compartilhados</Link>
         </NavDropdown>
         <NavDropdown title="Cultura" className=" menu" >

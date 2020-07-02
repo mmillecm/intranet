@@ -1,15 +1,8 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import CardDeck from 'react-bootstrap/CardDeck';
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
-
-
 import Quadro from '../components/Quadro';
 import Quadro1 from '../img/quadro-aviso.jpg'
 import corona from '../img/coronavirus.jpg'
-import Quadro2 from '../img/quadro-aviso2.jpg'
 import Quadro3 from '../img/quadro-aviso3.jpg'
 import NaveInside from '../components/NaveInside';
 import Hero from '../components/Hero';
